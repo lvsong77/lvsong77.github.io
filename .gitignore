@@ -1,21 +1,27 @@
+*~
+~*
+*.diff
+*.patch
+*.bak
 .DS_Store
-node_modules
-/dist
+*.swp
+*.swo
+*.log
+*.log.*
 
-# local env files
-.env.local
-.env.*.local
+/.vscode/
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+node_modules/
+.sass-cache/
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+Gemfile.lock
+
+_site/
+.jekyll-metadata
+.jekyll-cache/
