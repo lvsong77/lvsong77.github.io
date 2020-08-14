@@ -19,6 +19,6 @@ article_header:
 
 Keep Coding, keep improving!
 
-<div>{%- include extensions/netease-cloud-music.html id='1381578814' -%}</div>
-
 <!--more-->
+
+<div>{%- include extensions/netease-cloud-music.html id='1381578814' -%}</div>
