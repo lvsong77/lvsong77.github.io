@@ -9,7 +9,6 @@ article_header:
 ---
 
 ![avatar](https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png)
-<div>{%- include extensions/netease-cloud-music.html id='1349959772' -%}</div>
 
 # First post comes
 
@@ -19,5 +18,7 @@ article_header:
 # More to go
 
 Keep Coding, keep improving!
+
+<div>{%- include extensions/netease-cloud-music.html id='1381578814' -%}</div>
 
 <!--more-->
