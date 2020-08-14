@@ -8,7 +8,8 @@ article_header:
     src: 'https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png'
 ---
 
-<!-- ![avatar](https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png) -->
+![avatar](https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png)
+<div>{%- include extensions/netease-cloud-music.html id='1349959772' -%}</div>
 
 # First post comes
 
