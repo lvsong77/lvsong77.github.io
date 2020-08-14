@@ -5,7 +5,7 @@ tags: other
 article_header:
   type: cover
   image:
-    src: https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png
+    src: 'https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png'
 ---
 
 <!-- ![avatar](https://qf0f204pj.hn-bkt.clouddn.com/hello%20world.png) -->
