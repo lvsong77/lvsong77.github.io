@@ -116,7 +116,7 @@ comments:
   gitalk:
     clientID: a96c6ee956e31a7c799d # GitHub Application Client ID
     clientSecret: 8f4da8091bf42ea0d6cf48abe8f944d934bc9e12 # GitHub Application Client Secret
-    repository: https://github.com/lvsong77/blog_comment # GitHub repo
+    repository: https://github.com/lvsong77/lvsong77.github.io # GitHub repo
     owner: lvsong77 # GitHub repo owner
     admin:
       ["lvsong77"] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
