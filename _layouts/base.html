@@ -13,13 +13,70 @@ layout: none
       {%- include scripts/lib/lazyload.js -%}
     </script>
     {%- include scripts/variables.html -%}
+    <style>
+      #backtop { /* back to top button */
+        display: none;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        width:50px;
+        height: 50px;
+        position: fixed;
+        bottom: 10px; /* 小按钮到浏览器底边的距离 */
+        right: 60px; /* 小按钮到浏览器右边框的距离 */
+        color: rgb(64,120,192); /* 小按钮中文字的颜色 */
+        z-index: 1000;
+        background: #fff; /* 小按钮底色 */
+        padding: auto; /* 小按钮中文字到按钮边缘的距离 */
+        border-radius: 50px; /* 小按钮圆角的弯曲程度（半径）*/
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        font-weight: bold; /* 小按钮中文字的粗细 */
+        box-shadow: 1px 1px 10px #c4cacf, -1px -1px 10px #ffffff;;
+      }
+
+      #backtop:hover { /* 小按钮上有鼠标悬停时 */
+        background: rgba(64,120,192,0.8); /* 小按钮的底色 */
+        color: #fff; /* 文字颜色 */
+      }
+
+      .showBackTop {
+        display: block !important;
+      }
+    </style>
   </head>
   <body>
     <div class="root" data-is-touch="false">
       {{ content }}
+
+      <div id="backtop">
+        <span>TOP</span>
+      </div> 
     </div>
     <script>
       {%- include scripts/common.js -%}
+
+      let handleBackTop = function() {
+        let backtop = document.querySelector('#backtop')
+        window.addEventListener('scroll', () => {
+          let scrollTop = Number(document.documentElement.scrollTop)
+          if (scrollTop > 200) {
+            backtop.classList.add('showBackTop')
+          } else {
+            backtop.classList.remove('showBackTop')
+          }
+        })
+        backtop.addEventListener('click', () => {
+          $("html, body").animate({scrollTop: 0}, 200);
+        })
+      }
+
+      let __main = () => {
+        handleBackTop()
+      }
+
+      __main()
     </script>
   </body>
 </html>
