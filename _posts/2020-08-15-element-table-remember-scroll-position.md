@@ -17,7 +17,7 @@ tags: Vue Element
    
 2. 组件中代码实例如下：
    
-```JavaScript
+```html
   <template>
     <el-table ref="table"></el-table>
   </template>
@@ -83,4 +83,4 @@ tags: Vue Element
   ```
 
 # 参考链接：
-(https://segmentfault.com/a/1190000020916605)
+[https://segmentfault.com/a/1190000020916605](https://segmentfault.com/a/1190000020916605)
