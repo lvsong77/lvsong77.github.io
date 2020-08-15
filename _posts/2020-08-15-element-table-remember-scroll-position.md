@@ -17,7 +17,7 @@ tags: Vue Element
    
 2. 组件中代码实例如下：
    
-```
+```JavaScript
   <template>
     <el-table ref="table"></el-table>
   </template>
