@@ -1,6 +1,6 @@
 ---
 title: Element table 滚动后切换到其他页面再返回保持滚动位置
-key: p-2020-08-15-scroll-position
+key: p-2020-08-15-table-scroll
 tags: Vue Element
 ---
 
